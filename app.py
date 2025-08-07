@@ -29,7 +29,7 @@ def send_email_alert(subject, message, to_email):
 # --------------------------
 # Load Model
 # --------------------------
-model = joblib.load("model.pkl")
+model = joblib.load("model.pk1")
 
 # --------------------------
 # UI Setup
