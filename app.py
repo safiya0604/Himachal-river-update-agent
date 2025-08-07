@@ -13,7 +13,7 @@ def send_email_alert(subject, message, to_email):
     api_url = "https://api.brevo.com/v3/smtp/email"
     headers = {
         "accept": "application/json",
-        "api-key": "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",
+        "api-key": "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",
         "content-type": "application/json"
     }
     payload = {
