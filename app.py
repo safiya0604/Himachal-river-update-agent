@@ -77,6 +77,7 @@ lag2 = st.slider("Rainfall Lag 2 (mm)", 0, 200, 52)
 lag3 = st.slider("Rainfall Lag 3 (mm)", 0, 200, 39)
 roll3 = st.slider("Rolling 3-Day Rainfall (mm)", 0, 200, 46)
 roll7 = st.slider("Rolling 7-Day Rainfall (mm)", 0, 200, 43)
+rainfall_forecast_today = st.slider("Forecasted Rainfall Today (mm)", 0, 200, 40)
 
 # --------------------------
 # Calculations
